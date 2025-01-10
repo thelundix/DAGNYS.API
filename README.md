@@ -13,3 +13,4 @@ Endpoint: GET /api/rawmaterials/{id}
 
 Beskrivning:
 Denna endpoint returnerar detaljerad information om en specifik råvara, inklusive vilka leverantörer som tillhandahåller produkten och till vilket pris.
+
