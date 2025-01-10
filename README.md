@@ -1,6 +1,6 @@
 # SQLite Databas och REST API
 
-## Kraven för Godkänt
+## Översikt
 
 ### 1. Returnera JSON-resultat med vilka leverantörer som tillhandahåller respektive råvara och till vilket pris.
 
