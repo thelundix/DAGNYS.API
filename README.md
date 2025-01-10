@@ -3,3 +3,13 @@
 ## Returnera JSON-resultat med leverantörer för varje råvara och till vilket pris
 
 **Endpoint:**  
+GET /api/rawmaterials
+
+**Beskrivning:**  
+Denna endpoint returnerar en lista över alla råvaror, inklusive vilka leverantörer som tillhandahåller respektive råvara och deras priser.
+
+**Endpoint:**  
+GET /api/rawmaterials/{id}
+
+**Beskrivning:**  
+Denna endpoint returnerar detaljerad information om en specifik råvara, inklusive vilka leverantörer som tillhandahåller produkten och till vilket pris.
