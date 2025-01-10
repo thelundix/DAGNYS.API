@@ -1,15 +1,5 @@
-# REST API för Hantering av Råvaror
+# SQLlite Databas och REST API
 
-## Returnera JSON-resultat med leverantörer för varje råvara och till vilket pris
+Beskrivning
 
-**Endpoint:**  
-GET /api/rawmaterials
-
-**Beskrivning:**  
-Denna endpoint returnerar en lista över alla råvaror, inklusive vilka leverantörer som tillhandahåller respektive råvara och deras priser.
-
-**Endpoint:**  
-GET /api/rawmaterials/{id}
-
-**Beskrivning:**  
-Denna endpoint returnerar detaljerad information om en specifik råvara, inklusive vilka leverantörer som tillhandahåller produkten och till vilket pris.
+Detta projekt syftar till att skapa en SQLite-databas enligt Code-First-principen med korrekta relationer mellan entiteterna. Databasen fylls automatiskt med data vid applikationens start om tabellerna är tomma. Ett REST API utvecklas för att hantera råvaror och deras leverantörer.
